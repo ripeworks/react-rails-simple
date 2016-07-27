@@ -21,7 +21,7 @@ Drop this into your main application layout
 
 Use the `component` helper to render a React component into a view:
 
-`component(String component name, Hash props)`
+`component(String component_name, Hash props)`
 
 ```erb
 <%= component('MyComponent', {}) %>
