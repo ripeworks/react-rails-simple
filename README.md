@@ -19,11 +19,19 @@ Drop this into your main application layout
 
 ## Using components in rails views
 
+Export component in `app/assets/javascripts/components/index.js`
+
+```js
+// app/assets/javascripts/components/index.js
+export MyComponent from './MyComponent'
+```
+
 Use the `component` helper to render a React component into a view:
 
 `component(String component_name, Hash props)`
 
 ```erb
+# view.html.erb
 <%= component('MyComponent', {}) %>
 ```
 
