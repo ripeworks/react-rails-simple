@@ -31,7 +31,6 @@ Use the `component` helper to render a React component into a view:
 `component(String component_name, Hash props)`
 
 ```erb
-# view.html.erb
 <%= component('MyComponent', {}) %>
 ```
 
